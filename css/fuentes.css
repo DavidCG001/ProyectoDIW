@@ -1,0 +1,39 @@
+/* Para la fuente Oxanium */
+@font-face {
+    font-family: 'Oxanium';
+    src: url('../fonts/oxanium/Oxanium-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Oxanium';
+    src: url('..fonts/oxanium/Oxanium-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  /* Para la fuente Neuton */
+  @font-face {
+    font-family: 'Neuton';
+    src: url('..fonts/neuton/Neuton-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Neuton';
+    src: url('..fonts/neuton/Neuton-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  /* Aplicar las fuentes */
+  body {
+    font-family: 'Oxanium', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Neuton', serif;
+  }
+  

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/fuentes.css">
+</head>
+<body>
+    
+    <!-- HEADER -->
+    <header class="container-fluid bg-primary d-flex justify-content-between align-items-center g-3">
+
+        <!-- logo -->
+        <figure class="ps-5 pe-2">
+            <img src="images/logoEgresados.png" alt="" style="height: 80px;">
+        </figure>
+
+        <!-- navegación -->
+        <nav class="pe-5">
+            <!-- lista -->
+            <ul class="list-unstyled d-flex gap-4 text-center text-white">
+
+                <!-- articulos -->
+                <li>
+                    <div class="text-center">
+                        <a href="" class="text-decoration-none">
+                            <i class="bi bi-newspaper text-dark-emphasis"></i>
+                            <p class="text-white">Artículos</p>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- ofertas -->
+                <li>
+                    <div class="text-center">
+                        <a href="" class="text-decoration-none">
+                            <i class="bi bi-person-workspace text-dark-emphasis"></i>
+                            <p class="text-white">Ofertas</p>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- btn registro -->
+                <li>
+                    <a href="registro.html"><button class="btn btn-outline-light">Unirse ahora</button></a>
+                </li>
+
+                <!-- btn login -->
+                <li>
+                    <a href="log-in.html"><button class="btn btn-outline-secondary">Iniciar sesión</button></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="row container-fluid mt-5">
+
+        <!-- Bienvenida -->
+        <div class="col-lg-6 d-flex justify-content-evenly flex-column align-items-center">
+
+            <div class="container-fluid d-flex flex-column gap-5">
+                <h2 class="text-primary">¡Te damos la bienvenida a tu comunidad profesional de antiguos alumnos!</h2>
+
+                <button class="pe-4 ps-4 rounded btn border-black w-25 align-self-center "><i class="bi-google  pe-3 text-danger"></i>Sign in with Google</button>
+    
+                <p>Al hacer clic en «Continuar» para unirte o iniciar sesión, aceptas las <a href="">Condiciones de uso</a>, la <a href="">Política de privacidad</a> y la <a href="">Política de cookies</a> de Job Egresados.</p>
+            </div>
+        </div>
+        
+        <figure class="col-lg-6">
+            <img src="images/497.jpg" alt="" class="img-fluid">
+        </figure>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-primary text-white text-center py-3">
+        <p>&copy; 2025 Job-Egresados. Todos los derechos reservados.</p>
+    </footer>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

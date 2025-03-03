@@ -1,0 +1,18 @@
+// Sobrescribe las variables de Bootstrap
+$primary: #5C7285;  // Cambia el color principal
+$secondary: #818C78; // Cambia el color secundario
+$success: #ECEBDA; // Cambia el color de éxito
+$danger: #dc3545; // Cambia el color de error
+
+/* Establecer Oxanium como fuente para el cuerpo */
+body {
+    font-family: 'Oxanium', sans-serif;
+  }
+  
+  /* Establecer Neuton como fuente para los títulos */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Neuton', serif;
+  }
+
+// Aquí importas Bootstrap después de definir tus variables
+@import "../node_modules/bootstrap/scss/bootstrap";

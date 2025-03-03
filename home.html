@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/fuentes.css">
+</head>
+
+<body class="bg-success min-vh-100">
+
+    <!-- HEADER -->
+    <header class="container-fluid bg-primary d-flex justify-content-between align-items-center g-3">
+
+        <!-- logo -->
+        <figure class="ps-5 pe-2">
+            <img src="images/logoEgresados.png" alt="" style="height: 80px;">
+        </figure>
+
+        <!-- navegación -->
+        <nav class="pe-5">
+            <!-- lista -->
+            <ul class="list-unstyled d-flex gap-4 text-center text-white">
+
+                <!-- articulos -->
+                <li>
+                    <div class="text-center">
+                        <a href="#" class="text-decoration-none">
+                            <i class="bi bi-house-fill text-dark-emphasis"></i>
+                            <p class="text-white">Inicio</p>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- ofertas -->
+                <li>
+                    <div class="text-center">
+                        <a href="" class="text-decoration-none">
+                            <i class="bi bi-mailbox-flag text-dark-emphasis"></i>
+                            <p class="text-white">Mensajes</p>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- perfil -->
+                <li>
+                    <div class="text-center">
+                        <a href="" class="text-decoration-none">
+                            <i class="bi bi-mailbox-flag text-dark-emphasis"></i>
+                            <p class="text-white">Perfil</p>
+                        </a>
+                    </div>
+                </li>
+
+                <!-- btn registro -->
+                <li>
+                    <button class="btn btn-outline-secondary">Cerrar sesión</button>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="container-fluid row mt-5 mb-5">
+
+        <!-- datos perfil -->
+        <div class="col-md-3 mb-4">
+
+            <!-- datos -->
+            <div class="d-flex flex-column gap-4">
+                <!-- perfil -->
+                <div class="bg-secondary rounded-5 p-3 ">
+                    <figure>
+                        <img src="images/images.jpg" alt="" class="rounded-circle" style="height: 110px;">
+                    </figure>
+
+                    <p>Nombre del Usuario</p>
+                    <p>Estudiante del I.E.S Ruiz Gijón</p>
+                    <p>DAW</p>
+                </div>
+
+                <!-- contactos -->
+                <div class="bg-secondary rounded-5 p-3">
+                    <a href="" class="text-decoration-none text-dark">Contactos</a>
+                </div>
+
+                <!-- ofertas guardadas -->
+                <div class="bg-secondary rounded-5 p-3">
+                    <a href="" class="text-decoration-none text-dark">Ofertas guardadas</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- principal -->
+        <div class="col-md-6 d-flex flex-column gap-4 mb-4">
+
+            <!-- actualizar perfil -->
+            <div class=" bg-secondary rounded-5 p-3 d-flex flex-column gap-3 ">
+                <h3>Actualmente trabajando?</h3>
+
+                <p>Añade tu experiencia laboral y tus aptitudes para mostrar tus puntos fuertes a los técnicos de
+                    selección.</p>
+
+                <a href="" class="btn btn-light w-25 align-self-end">Actualizar perfil</a>
+            </div>
+
+            <!-- Escribir articulo -->
+            <div class=" bg-secondary rounded-5 p-3 d-flex justify-content-start gap-4">
+
+                <figure>
+                    <img src="images/images.jpg" alt="" class="rounded-circle" style="height: 60px;">
+                </figure>
+
+                <input type="search" class=" text-start btn-light h-50 w-75 mt-2" placeholder="Escribe un articulo...">
+            </div>
+
+            <div class="articulos">
+                <!-- articulo 1-->
+                <div class="bg-secondary rounded-5 p-3  mb-4 ">
+
+                    <div class="d-flex gap-5">
+                        <figure>
+                            <img src="images/chico.jpg" alt="" class="rounded-circle" style="height: 110px;">
+                        </figure>
+
+                        <!-- texto -->
+                        <div>
+                            <p>Nombre del Usuario</p>
+                            <p>Estudiante del I.E.S Ruiz Gijón</p>
+                            <p>SMR</p>
+                        </div>
+
+                        <!-- contactar -->
+                        <a href="" class="btn btn-primary align-self-center text-center ms-auto">Contactar</a>
+                    </div>
+
+                    <!-- foto -->
+                    <figure>
+                        <img src="images/1739119093020.jpg" alt="" class="img-fluid w-100 rounded shadow"
+                            style="height: auto;">
+                    </figure>
+
+                    <!-- pie -->
+                    <p>Trabajando en Tech-Data como administrador de sistemas</p>
+                </div>
+
+                <!-- articulo 2-->
+                <div class="bg-secondary rounded-5 p-3">
+
+                    <div class="d-flex gap-5">
+                        <figure>
+                            <img src="images/chico2.jpg" alt="" class="rounded-circle" style="height: 110px;">
+                        </figure>
+
+                        <!-- texto -->
+                        <div>
+                            <p>Nombre del Usuario</p>
+                            <p>Estudiante del I.E.S Ruiz Gijón</p>
+                            <p>DAW</p>
+                        </div>
+
+                        <!-- contactar -->
+                        <a href="" class="btn btn-primary align-self-center text-center ms-auto">Contactar</a>
+                    </div>
+
+                    <!-- foto -->
+                    <figure>
+                        <img src="images/silicon.jpg" alt="" class="img-fluid w-100 rounded shadow"
+                            style="height: auto;">
+                    </figure>
+
+                    <!-- pie -->
+                    <p>Trabajando en Silicon Valley, como desarrollador en las oficinas de Google</p>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Noticias -->
+        <div class="col-md-3 mb-4">
+            <!-- datos -->
+            <div class="d-flex flex-column gap-4">
+                <!-- perfil -->
+                <div class="bg-secondary rounded-5 p-3 ">
+                    <h1 class="text-uppercase">Noticias</h1>
+                    <p>Donal Trump aumenta los aranceles en la UE. <a href="https://www.france24.com/es/ee-uu-y-canad%C3%A1/20250228-china-anuncia-todas-las-contramedidas-necesarias-ante-aranceles-de-donald-trump" class="text-white">Ver la noticia</a></p>
+
+                    <p>Hacienda se pone seria e incluirá estas cinco fuentes de ingresos en la Renta en abril: así afectará al IRPF a millones de españoles <a href="https://as.com/actualidad/economia/hacienda-se-pone-seria-e-incluira-estas-cinco-fuentes-de-ingresos-en-la-renta-en-abril-asi-afectara-al-irpf-a-millones-de-espanoles-n/"  class="text-white">Ver la noticia</a></p>
+
+                    <p>Europa busca protagonismo en el desarrollo de la IA con el primer gran centro del continente. <a href="https://www.20minutos.es/tecnologia/inteligencia-artificial/europa-busca-protagonismo-desarrollo-ia-con-primer-gran-centro-francia-5686421/"  class="text-white">Ver la noticia</a></p>
+
+                    <p>El futuro ya está aquí: Alef Aeronautics muestra en acción su coche volador. <a href="https://www.20minutos.es/tecnologia/actualidad/futuro-ya-esta-aqui-alef-aeronautics-muestra-accion-su-coche-volador-5685753/"  class="text-white">Ver la noticia</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <!-- FOOTER -->
+    <footer class="bg-primary text-white text-center py-3 bottom-0">
+        <p>&copy; 2025 Job-Egresados. Todos los derechos reservados.</p>
+    </footer>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
