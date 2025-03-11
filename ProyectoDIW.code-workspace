@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "ProyectoDIW",
+			"path": "."
+		},
+		{
+			"name": "static",
+			"path": "../../Downloads/static"
+		}
+	],
+	"settings": {}
+}
