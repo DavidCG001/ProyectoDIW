@@ -88,28 +88,17 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
-        // Habilitar la validación de formulario en el navegador
-        // Esto se hace para mostrar las clases de validación de Bootstrap
-        (function () {
-            'use strict'
-
-            // Obtener todos los formularios a los que se les va a aplicar la validación
-            var forms = document.querySelectorAll('.needs-validation')
-
-            // Recorrerlos y evitar el envío si el formulario no es válido
-            Array.prototype.slice.call(forms)
-                .forEach(function (form) {
-                    form.addEventListener('submit', function (event) {
-                        if (!form.checkValidity()) {
-                            event.preventDefault()
-                            event.stopPropagation()
-                        }
-
-                        form.classList.add('was-validated')
-                    }, false)
-                })
-        })()
-    </script>
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            if (!this.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+            } else {
+                event.preventDefault(); // Evita la acción por defecto
+                window.location.href = "home.html"; // Redirige a home.html
+            }
+            this.classList.add('was-validated');
+        });
+        </script>
 </body>
 
 </html>
